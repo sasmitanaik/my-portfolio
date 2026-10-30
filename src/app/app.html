@@ -1,0 +1,26 @@
+
+<header class="navbar">
+  <a routerLink="/" class="logo">PORT<span>FOLIO.</span></a>
+
+  <nav>
+    <a routerLink="/" routerLinkActive="active"
+       [routerLinkActiveOptions]="{exact:true}">Home</a>
+
+    <a routerLink="/about" routerLinkActive="active">About</a>
+
+    <a routerLink="/work" routerLinkActive="active">My Work</a>
+
+    <a routerLink="/contact" routerLinkActive="active">Contact</a>
+  </nav>
+
+  <a routerLink="/contact" class="nav-btn">Let's Talk ↗</a>
+</header>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="footer">
+  <p>© 2026 My Portfolio. Designed & Developed with ❤️</p>
+  <p>WordPress Developer | Angular Developer</p>
+</footer>
